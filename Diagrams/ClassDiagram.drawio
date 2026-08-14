@@ -1,0 +1,79 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="gzyVgGbIIehf9BY4l7Uf">
+    <mxGraphModel dx="1638" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Passenger" vertex="1">
+          <mxGeometry height="220" width="280" x="80" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-2" parent="oEQBpXLl3Q5iWbKFb5q2-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- name: String&lt;div&gt;- passengerId: int&lt;/div&gt;&lt;div&gt;- phoneNumber: String&lt;/div&gt;&lt;div&gt;- walletBallance: double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="280" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-3" parent="oEQBpXLl3Q5iWbKFb5q2-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="280" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-4" parent="oEQBpXLl3Q5iWbKFb5q2-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Passenger(name:String,initialBallance:double)&lt;div&gt;+ getName(): String&lt;/div&gt;&lt;div&gt;+ getPassengerId(): int&lt;/div&gt;&lt;div&gt;+ getwalletBallance(): double&lt;/div&gt;&lt;div&gt;+ deductWallet(amount:double): void&lt;/div&gt;&lt;div&gt;+ addBallance(amount:double): void&lt;/div&gt;&lt;div&gt;- getPhoneNumber(): String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112" width="280" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Driver" vertex="1">
+          <mxGeometry height="230" width="280" x="460" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-6" parent="oEQBpXLl3Q5iWbKFb5q2-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- name: String&lt;div&gt;- driverId: int&lt;/div&gt;&lt;div&gt;- phoneNumber: String&lt;/div&gt;&lt;div&gt;- carModel: String&lt;/div&gt;&lt;div&gt;- isAvailable: boolean&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="280" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-7" parent="oEQBpXLl3Q5iWbKFb5q2-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="280" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-8" parent="oEQBpXLl3Q5iWbKFb5q2-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Driver(name:String,carModel:String)&lt;div&gt;+ getName(): String&lt;/div&gt;&lt;div&gt;+ getDriverId(): int&lt;/div&gt;&lt;div&gt;+ getCarModel(): String&lt;/div&gt;&lt;div&gt;+ isAvailabe(): boolean&lt;/div&gt;&lt;div&gt;+ makeAvailable(): void&lt;/div&gt;&lt;div&gt;+ makeUnavailable(): void&lt;/div&gt;&lt;div&gt;+ getPhoneNumber():String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="122" width="280" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Ride" vertex="1">
+          <mxGeometry height="280" width="300" x="250" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-10" parent="oEQBpXLl3Q5iWbKFb5q2-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- rideId: int&lt;div&gt;- distanceInKm: double&lt;br&gt;&lt;div&gt;- passenger: Passenger&lt;/div&gt;&lt;div&gt;- driver:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Driver&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- fair: double&lt;/div&gt;&lt;div&gt;- isCompleted: boolean&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-11" parent="oEQBpXLl3Q5iWbKFb5q2-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="300" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-12" parent="oEQBpXLl3Q5iWbKFb5q2-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Ride(passenger:Passenger,driver: &lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Driver,distanceInKm:double,fair:double&lt;/span&gt;)&lt;div&gt;+ getRideId(): int&lt;/div&gt;&lt;div&gt;+ getDistanceInKm(): double&lt;/div&gt;&lt;div&gt;+ getPassenger(): passenger&lt;/div&gt;&lt;div&gt;+ getDriver(): Driver&lt;/div&gt;&lt;div&gt;+ getFair(): double&lt;/div&gt;&lt;div&gt;+ isCompleted(): boolean&lt;/div&gt;&lt;div&gt;+ completeRide(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="142" width="300" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-24" edge="1" parent="1" source="oEQBpXLl3Q5iWbKFb5q2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=1;" target="oEQBpXLl3Q5iWbKFb5q2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="RideService" vertex="1">
+          <mxGeometry height="360" width="300" x="254" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-14" parent="oEQBpXLl3Q5iWbKFb5q2-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- passengerCount: int&lt;/div&gt;&lt;div&gt;- driverCount: int&lt;/div&gt;&lt;div&gt;- rideCount: int&lt;/div&gt;- passengers: ArrayList&amp;lt;Passenger&amp;gt;&lt;div&gt;- drivers: ArrayList&amp;lt;Driver&amp;gt;&lt;br&gt;&lt;div&gt;- rides&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: ArrayList&amp;lt;Ride&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- pricePerKilometer: double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="114" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-15" parent="oEQBpXLl3Q5iWbKFb5q2-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="300" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-16" parent="oEQBpXLl3Q5iWbKFb5q2-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ registerPassenger(name:String): Passenger&lt;/span&gt;&lt;div&gt;+ registerDriver(name:String,carModel:String): Driver&lt;/div&gt;&lt;div&gt;+ bookRide(passengerID:int,distanceInKm:double): Ride&lt;/div&gt;&lt;div&gt;+ findRideById(rideId:int): Ride&lt;/div&gt;&lt;div&gt;+ findAvailableDriver(): Driver&lt;/div&gt;&lt;div&gt;+ completeRide(rideId:int): void&lt;/div&gt;&lt;div&gt;+ findPassengerById(passengerId:int): Passenger&lt;/div&gt;&lt;div&gt;+ getRides(): Arralist&amp;lt;Ride&amp;gt;&lt;/div&gt;&lt;div&gt;+ getPassengerCount(): int&lt;/div&gt;&lt;div&gt;+ getDriverCount(): int&lt;/div&gt;&lt;div&gt;+ getRideCount(): int&lt;/div&gt;&lt;div&gt;+ findDriverById(driverId:int): Driver&lt;/div&gt;&lt;div&gt;+ getActiveRideCount(): int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="212" width="300" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-18" edge="1" parent="1" source="oEQBpXLl3Q5iWbKFb5q2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=diamond;startFill=0;dashed=1;" target="oEQBpXLl3Q5iWbKFb5q2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-19" edge="1" parent="1" source="oEQBpXLl3Q5iWbKFb5q2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.479;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="oEQBpXLl3Q5iWbKFb5q2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-22" edge="1" parent="1" source="oEQBpXLl3Q5iWbKFb5q2-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.897;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;startArrow=diamond;startFill=0;" target="oEQBpXLl3Q5iWbKFb5q2-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="711" y="975" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEQBpXLl3Q5iWbKFb5q2-23" edge="1" parent="1" source="oEQBpXLl3Q5iWbKFb5q2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.157;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=diamond;startFill=0;" target="oEQBpXLl3Q5iWbKFb5q2-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
